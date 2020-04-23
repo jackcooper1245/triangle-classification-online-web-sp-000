@@ -10,7 +10,7 @@ end
 def kind
   if @side_1 + @side_2 < @side_3 || @side_1 = @side_3 < @side_1 || @side_2 = @side_3 < @side_1
     return
-  if @side_1 == @side_2 && @side_1 == @side_3
+  elsif @side_1 == @side_2 && @side_1 == @side_3
     return :equilateral
   elsif @side_1 == @side_2 && @side_1 !== @side_3
     return :isosceles
